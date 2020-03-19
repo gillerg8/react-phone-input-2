@@ -1,4 +1,4 @@
-# React-Phone-Input-2
+# React-Phone-Input-Component
 Highly customizable phone input component with auto formatting.
 
 [![npm version](https://img.shields.io/npm/v/react-phone-input-2.svg?style=flat)](https://www.npmjs.com/package/react-phone-input-2)
@@ -10,13 +10,13 @@ Highly customizable phone input component with auto formatting.
 
 ## Installation
 ```shell-script
-npm install react-phone-input-2 --save
+npm install react-phone-input-component --save
 ```
 
 ## Usage
 ```jsx
-import PhoneInput from 'react-phone-input-2'
-import 'react-phone-input-2/lib/style.css'
+import PhoneInput from 'react-phone-input-component'
+import 'react-phone-input-component/lib/style.css'
 
 <PhoneInput
   country={'us'}
@@ -151,21 +151,28 @@ import 'react-phone-input-2/lib/style.css'
 ```
 
 ### Contents
-- [Style](#style)
-- [Events](#events)
-- [Regions](#regions)
-- [Localization](#predefined-localization)
-- [Local area codes](#local-area-codes)
-- [Custom masks](#custom-masks)
-- [Custom area codes](#custom-area-codes)
-- [Other props](#other-props)
-- [Custom localization](#custom-localization)
-- [Guides](#guides)
-  - [Phone without dialCode](#phone-without-dialcode)
-  - [Check validity of the phone number](#check-validity-of-the-phone-number)
-  - [CDN](#cdn)
-- [Contributing](#contributing)
-- [Support](https://www.paypal.me/bloomber/20)
+- [React-Phone-Input-Component](#react-phone-input-component)
+  - [Installation](#installation)
+  - [Usage](#usage)
+      - [Demo 1 (UI) - [Demo 2 (CSS)](https://bl00mber.github.io/react-phone-input-2-css.html)](#demo-1-ui---demo-2-css)
+  - [Options](#options)
+    - [Contents](#contents)
+    - [Style](#style)
+    - [Events](#events)
+    - [Regions](#regions)
+    - [Predefined localization](#predefined-localization)
+    - [Local area codes](#local-area-codes)
+    - [Custom masks](#custom-masks)
+    - [Custom area codes](#custom-area-codes)
+    - [Other props](#other-props)
+    - [Custom localization](#custom-localization)
+    - [Preserve countries order](#preserve-countries-order)
+  - [Guides](#guides)
+    - [Phone without dialCode](#phone-without-dialcode)
+    - [Check validity of the phone number](#check-validity-of-the-phone-number)
+    - [CDN](#cdn)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ### Style
 <table>
